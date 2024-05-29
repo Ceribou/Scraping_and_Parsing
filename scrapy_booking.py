@@ -6,7 +6,7 @@ from scrapy.crawler import CrawlerProcess
 
 # Get the top 5 cities and the associated ids
 city_ids = {}
-with open('cities_list.csv', newline='', encoding='utf-8') as csvfile:
+with open('data/cities_list.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         city_ids[row[1]] = row[0]
