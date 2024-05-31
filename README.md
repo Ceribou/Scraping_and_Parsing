@@ -1,5 +1,7 @@
 ![alt text](./img/kayak.png)
 
+# Kayak Project
+
 This project has been realized to validate the Jedha Bootcamp certification (Data Collection module).
 
 ## Goals :
